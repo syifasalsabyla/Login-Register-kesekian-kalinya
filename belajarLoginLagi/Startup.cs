@@ -67,7 +67,7 @@ namespace belajarLoginLagi
 
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=HelloWorld}/{action=Hi}/{id?}");
+                    template: "{controller=HelloWorld}/{action=Index}/{id?}");
             });
         }
     }
